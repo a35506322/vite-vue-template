@@ -33,3 +33,15 @@ npm run build
 ```sh
 npm run lint
 ```
+
+> 底下為範本程式碼介紹
+
+## axios 範本串接
+
+#### 流程步驟
+
+- 首先先在 Post Man 建立 MockServer [精選好文](https://tzuhui.io/2022/05/13/tool/postman-mock-server/)
+- 安裝套件 `npm install --save axios vue-axios` 在 main.js 註冊並引用
+- 可以參考[整合 axios](https://polinwei.com/vue-js-axios-interceptor-and-toast/)
+  此篇利用攔截器，攔截錯誤代碼並統整操作
+- 參考 **_AxiosTemplateView.vue_** 範本程式碼
